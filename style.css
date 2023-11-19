@@ -66,7 +66,7 @@ button {
 }
 
 button.active {
-  background-color: #dbdbdb;
+  background-color: #30d30c;
 }
 
 button:active {
