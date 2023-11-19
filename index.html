@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="style.css" rel="stylesheet" />
+  <title>Stream Pomodoro</title>
+</head>
+
+<body>
+  <div id="progress">
+    <div id="progress-value" />
+  </div>
+  <div id="clock">--:--</div>
+  <div id="text">&nbsp;</div>
+  <hr />
+  <div id="mode-buttons" class="btn-group">
+    <button data-mode="pomodoro">Pomodoro</button>
+    <button data-mode="shortBreak">Short Break</button>
+    <button data-mode="longBreak">Long Break</button>
+  </div>
+
+  <div class="btn-group">
+    <button id="pause-button" data-action="pause">||</button>
+  </div>
+
+  <div id="adjust-buttons" class="btn-group">
+    <button data-action="minus">-</button>
+    <button data-action="plus">+</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
